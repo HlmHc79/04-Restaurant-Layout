@@ -13,7 +13,7 @@ img {
 
 .hero {
     background-image: url('/img/hero.jpg');
-    background-color: rgba(1, 1, 1, 0.3);
+    background-color: rgba(1, 1, 1, 0.2);
     background-blend-mode: multiply;
     background-repeat: no-repeat;
     background-size: cover;
@@ -51,13 +51,18 @@ img {
 
 .container__hero {
     position:relative;
-    padding: 2em;
+    padding: 3em;
+    height: 100%;
+    width: 60%;
+    margin:auto;
 }
   
 
 .hero__title {
     font-family: 'Niconne', cursive;
     color:white;
-    font-size: 4rem;
+    font-size: 5rem;
+    font-weight: lighter;
+    text-align: center;
 }
     
