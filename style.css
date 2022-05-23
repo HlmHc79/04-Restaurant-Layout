@@ -176,15 +176,6 @@ img {
     }
     
     .hero__icon {
-        width:1rem;
-    }
-    
-
-    /* .toggle-button {
-            display:none;
-        } */
-
-    .hero__icon {
         width:1.2rem;
     }
 
@@ -209,8 +200,36 @@ img {
         line-height: 2em;
     }
 
+    .chef--mobile {
+        display: none;
+    }
+    
     .chef--desktop {
-        display: block;
+        display: flex;
+        filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
+        border-radius: 10px;
+        margin-bottom:0.75rem;
+        justify-content: center;
+        width: 30%;
     }
 
+    .container__meetchef {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width:80%;
+        max-width: 800px;
+        margin: auto;
+        margin-bottom:3rem;
+    }
+
+    .meetchef__title {
+        padding: 1em 0;
+    }
+
+    .container__meetchef--pics {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 1em;
+    }
 }
