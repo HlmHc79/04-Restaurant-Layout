@@ -37,8 +37,8 @@ img {
 }
 
 .hero__nav--links {
-    display: flex; /*change back to none once nav fixed */
-    justify-content: space-evenly;
+    display: flex;
+    justify-content: flex-start;
     max-width: 610px;
     width:100%;
 } 
@@ -51,29 +51,10 @@ img {
 .hero__list--middle {
     display: flex; 
     flex-direction: column;
-    width: 95%;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: flex-start;
-    padding-left:1rem;
+    padding-left: 1em;
 }
-
-/* .toggle-button {
-    position:absolute;
-    right: 50%;
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    width: 31px;
-    height: 21px;
-}
-
-.toggle-button .bar {
-    height:3px;
-    width:100%;
-    background-color: white;
-    border-radius: 10px;
-} */
 
 .hero__nav--links--right {
     display: flex;
@@ -122,6 +103,56 @@ img {
     font-size: 3.5rem;
 }
     
+.chef--desktop {
+    display: none;
+}
+
+.meetchef__title {
+    font-family: 'Niconne', cursive;
+    font-size: 3rem;
+    font-weight: 200;
+    text-align: center;
+    padding: 0.5em 0;
+}
+
+.meetchef__text{
+    text-indent:2rem;
+    text-align: justify;
+    line-height: 1.5rem;
+    margin:0.5rem 0;
+}
+
+.container__meetchef {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:80%;
+    margin: auto;
+    margin-bottom:3rem;
+}
+
+.chef--mobile {
+    filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
+    border-radius: 10px;
+    margin-bottom:0.75rem;
+}
+
+#more {
+    display: none;
+}
+
+.meetchef__btn {
+    background-color: black;
+    color:white;
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    padding:0.5rem 0.75rem;
+    width:200px;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+}
 
 @media (min-width: 685px) {
 
@@ -177,4 +208,9 @@ img {
     .hero__nav--links--right {
         line-height: 2em;
     }
+
+    .chef--desktop {
+        display: block;
+    }
+
 }

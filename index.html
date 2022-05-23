@@ -12,16 +12,16 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header class="hero">
+<header class="hero" id="hero">
     <nav class="hero__nav index10 ">
         <img class="hero__logo index10" src="img/logo2.png" alt="La Belle logo">
         <div class="hero__nav--links">
             <ul class="hero__list hero__list--middle index10">
-                <li class="hero__item ">Home</li>
-                <li class="hero__item">Order Online</li>
-                <li class="hero__item">Gallery</li>
-                <li class="hero__item">Meet the Chef</li>
-                <li class="hero__item">Contact Us</li>
+                <li class="hero__item "><a href="#hero">Home</a></li>
+                <li class="hero__item"><a href="#order">Order Online</a></li>
+                <li class="hero__item"><a href="#gallery">Gallery</a></li>
+                <li class="hero__item"><a href="#chef">Meet the Chef</a></li>
+                <li class="hero__item"><a href="#contact">Contact Us</a></li>
             </ul>
         </div>
 
@@ -32,26 +32,66 @@
                 <li class="hero__item--right"><img class="hero__icon" src="img/wholesale.png" alt="wholesale icon"> <span class="navmob">Wholesale</span></li>
             </ul>
          </div>
-        
-         <!-- <a href="#" class="toggle-button">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-        </a> -->
-
     </nav>
 
     <section class="hero--bottom">
         <div class="container__hero index10">
             <h1 class="hero__title index10">Welcome to <br><span class="labelle">La Belle</span> <br>French Bakery</h1>
-        </div>
-       
-    </div>
- 
+        </div>   
+    </section>
 </header>
 
+<section class="meetchef" id="chef">
+    <div class="container__meetchef">
+        <h1 class="meetchef__title">Meet Chef Julien Renaut</h1>
+        <img class="chef--mobile" src="img/Chef3.jpeg" alt="Chef Julien picture"/>
+        <img class="chef--desktop" src="img/Chef.jpeg" alt="Chef Julien picture"/>
+        <img class="chef--desktop" src="img/Chef2.jpeg" alt="Chef Julien picture"/>
+   
+        <p class="meetchef__text">
+            Julien Renaut was born in the cultural hub and bustling city of Lille, France in 1986. At the young age of 17, he began a pursuit towards an education for his love of pastries at the CEFMA of Tourcoing. 
+            He graduated in 2007 with a Pastry Degree in hand, and a determination to make something of himself in the pastry world. 
+            With his sights set, he immediately went on to pursue and receive his Master’s Degree in Chocolate in 2008 from CEFMA.
+            <span id="dots">...</span><span id="more">
+        <br><br> 
+            He accomplished all of this while apprenticing at Auchan in Leers, France, working under the supervision and guidance of Laurent Moras and other well known professionals. 
+            One of his biggest take-a-ways from his apprenticeship was learning the coveted craft of chocolate sculpture, which landed him a spot in a Chocolate Expo for the Senate. 
+            After his apprenticeship was completed, he was offered a position to bake bread at a local bakery. Although he had never baked bread before, he confidently took the position, determined to conquer a new skill. 
+            With a small amount of guidance and dedication, Chef Julien added bread making to his repertoire. Julien’s desire for growth and passion for leadership, effortlessly led him to the United States in pursuit of his dreams. 
+        <br><br> 
+            He landed in San Diego, CA and took a position as an Executive Pastry Chef, supervising a team of 6 at French 101. During this time, he decided that one job wasn’t enough, and branched out to consulting for Cocola Bakery in San Francisco, CA. 
+            It was there, where he assisted the team at Cocola Bakery to expand and enhance the production of their French macaroons and other desserts. 
+        <br><br>
+            He then went on to become an Executive Pastry Chef at La Valencia Hotel in La Jolla, CA, working under Chef Sean Eastwood, who had been trained by world renowned French Chef Paul Bocuse. 
+            Julien’s career eventually led him to Breckenridge, CO, where he was the Executive Pastry Chef at La Française French Bakery for 4 years. The success he experienced there subsequently led him to opportunity in the big city, making Denver his new home. 
+            He then began a position at The Wellshire Event Center as the Director of Cuisine. 
+        <br><br>  
+            His years of training, knowledge and priceless experience allowed him to naturally take the lead and bring growth to their culinary menu. 
+            And as Julien says, “Why not,” he additionally opened a pastry kitchen allowing bakery production to be used for corporate, private and wedding events. 
+            All while continuing to manage the staff at The Wellshire and running their state-of-the-art kitchen for all banquets. 
+        <br><br>  
+            In 2016, he realized it was time to branch out on his own and he opened La Belle French Bakery on his birthday. 
+            His goal was to offer outstanding French pastries with the highest of quality to local businesses. 
+            In turn, guaranteeing authentic French recipes to every cafe, restaurant, hotel and business in Colorado. 
+            Julien has also made an effort to bring young talented French pastry chefs to the US to give them the same opportunities he once created for himself. 
+        <br><br>   
+            In the spirit of his, “why not” mantra, Chef Julien became a member of the French Chamber of Commerce in Colorado as the Culinary Director/Board Member in November 2019, as he began teaching Master Pastry Classes at The French Kitchen in Colorado Springs. 
+            Then a year later, in November 2020, he was selected to be the President of the French Chamber of Commerce and continues in that role today. 
+        <br><br>
+            In March 2020, due to the global pandemic, Chef Julien made a remarkable pivot with La Belle and opened his doors to retail customers alongside his wholesale businesses. 
+            This has proved to be extremely successful, and he is currently planning to branch out of state and/ or open a full retail bakery location soon. 
+        <br><br>
+            In 2020 Julien also partnered with a farm in El Salvador producing his own brand of gourmet coffee, working with a local roaster. 
+            La Belle coffee matches the same level of quality he provides with his pastries and is available in store and online. Truly, his endless desire to share his passion will never waiver.
+        <br>
+        </span>
+        </p>
+            <button class="meetchef__btn" onclick="readMore()" id="myBtn">Read more</button>
+    </div>
+</section>
 
 
-  
+
+  <script src="main.js"></script>
 </body>
 </html>
