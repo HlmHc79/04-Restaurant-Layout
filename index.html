@@ -4,128 +4,93 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>La Belle - French Bakery</title>
+    <title>Crêpes de Soissons</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Niconne&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600&family=Rubik:ital,wght@0,300;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style/normalize.css">
     <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
 <header class="hero" id="hero">
     <nav class="hero__nav index10 ">
-        <img class="hero__logo index10" src="img/logo2.png" alt="La Belle logo"> 
+        <img class="hero__logo" src="img/logo_white.png" alt="La Belle logo"> 
         <div class="hero__nav--links">
-            <ul class="hero__list hero__list--middle index10">
-                <li class="hero__item "><a href="#hero">Home</a></li>
-                <li class="hero__item"><a href="#order">Order Online</a></li>
-                <li class="hero__item"><a href="#gallery">Gallery</a></li>
-                <li class="hero__item"><a href="#chef">Meet the Chef</a></li>
+            <ul class="hero__list">
+                <li class="hero__item menu--active "><a href="#hero">Home</a></li>
+                <li class="hero__item"><a href="menu.html">Menu</a></li>
+                <li class="hero__item"><a href="about.html">Our Story</a></li>
+                <li class="hero__item"><a href="locations.html">Locations</a></li>
                 <li class="hero__item"><a href="contact.html">Contact Us</a></li>
             </ul>
         </div>
-
-         <div class="hero__nav--links--right">
-            <ul class="hero__list hero__list--right index10">
-                <li class="hero__item--right"><img class="hero__icon" src="img/account.png" alt="wholesale icon"> <span class="navmob"> My Account</span></li>
-                <li class="hero__item--right"><img class="hero__icon" src="img/cart.png" alt="cart icon" > <span class="navmob">Your Cart</span></li>
-                <li class="hero__item--right"><img class="hero__icon" src="img/wholesale.png" alt="wholesale icon"> <span class="navmob">Wholesale</span></li>
-            </ul>
-         </div>
     </nav>
 
     <section class="hero--bottom">
-        <div class="container__hero index10">
-            <h1 class="hero__title index10">Welcome to <br><span class="labelle">La Belle</span> <br>French Bakery</h1>
+        <div class="container__hero">
+            <h1 class="hero__title">Crêpes de Soissons</h1>
+            <p class="hero__text">Locally owned and operated, Crêpes de Soissons brings you delicious and authentic French crepes. Come and check us out!</p>
+            <button class="menu btn--intro" onclick="location.href='menu.html'">Menu</button>
         </div>   
+       <div class="polygon">
+        <svg viewBox="0 0 1440 320"><path fill="white" fill-opacity="1" d="M0,128L40,144C80,160,160,192,240,197.3C320,203,400,181,480,181.3C560,181,640,203,720,202.7C800,203,880,181,960,181.3C1040,181,1120,203,1200,181.3C1280,160,1360,96,1400,64L1440,32L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
+   </div> 
+       </div>
     </section>
 </header>
 
-<section class="shop">
-    add the shopping option here
+<section class="intro">
+    <div class="container--left">
+        <h1 class = "hero__title--black">I . LOVE . CRÊPES.</h1>
+        <p class="intro__text">It’s okay to say it, Ricky Bobby.
+        We won’t break your arm if you don’t, but we bet you will after a few bites.
+        Given that we make every really thin pancake for you to order from scratch - we even bet you’ll enjoy them half as much as telling all your friends about the cutest corgi you’ve ever seen  (that’s Winston) and the truly incredible experience at this farmer’s market. Because as sure as the Highlander won the Academy Award for Greatest Movie Ever, all of our stuff is really, really good.
+        </p>
+        <a href="about.html"><button class="menu btn--intro">Our story</button></a>
+    </div>
+    <div class="container--right">
+        <img class= "container__img" src="./img/cook.jpeg" alt="owner making a crepe">
+    </div>
 </section>
 
-<section class="meetchef" id="chef">
-    <div class="container__meetchef">
-        <h1 class="meetchef__title">Meet Chef Julien Renaut</h1>
-    <div class="container__meetchef--pics">
-        <img class="chef--mobile " src="img/Chef3.jpeg" alt="Chef Julien picture"/>
-        <img class="chef--desktop " src="img/Chef3.jpeg" alt="Chef Julien picture"/>
-        <img class="chef--desktop" src="img/Chef.jpeg" alt="Chef Julien picture"/>
-        <img class="chef--desktop" src="img/Chef2.jpeg" alt="Chef Julien picture"/>
-    </div>  
-        <p class="meetchef__text">
-            Julien Renaut was born in the cultural hub and bustling city of Lille, France in 1986. At the young age of 17, he began a pursuit towards an education for his love of pastries at the CEFMA of Tourcoing. 
-            He graduated in 2007 with a Pastry Degree in hand, and a determination to make something of himself in the pastry world. 
-            With his sights set, he immediately went on to pursue and receive his Master’s Degree in Chocolate in 2008 from CEFMA.
-            <span id="dots">...</span><span id="more">
-        <br><br> 
-            He accomplished all of this while apprenticing at Auchan in Leers, France, working under the supervision and guidance of Laurent Moras and other well known professionals. 
-            One of his biggest take-a-ways from his apprenticeship was learning the coveted craft of chocolate sculpture, which landed him a spot in a Chocolate Expo for the Senate. 
-            After his apprenticeship was completed, he was offered a position to bake bread at a local bakery. Although he had never baked bread before, he confidently took the position, determined to conquer a new skill. 
-            With a small amount of guidance and dedication, Chef Julien added bread making to his repertoire. Julien’s desire for growth and passion for leadership, effortlessly led him to the United States in pursuit of his dreams. 
-        <br><br> 
-            He landed in San Diego, CA and took a position as an Executive Pastry Chef, supervising a team of 6 at French 101. During this time, he decided that one job wasn’t enough, and branched out to consulting for Cocola Bakery in San Francisco, CA. 
-            It was there, where he assisted the team at Cocola Bakery to expand and enhance the production of their French macaroons and other desserts. 
-        <br><br>
-            He then went on to become an Executive Pastry Chef at La Valencia Hotel in La Jolla, CA, working under Chef Sean Eastwood, who had been trained by world renowned French Chef Paul Bocuse. 
-            Julien’s career eventually led him to Breckenridge, CO, where he was the Executive Pastry Chef at La Française French Bakery for 4 years. The success he experienced there subsequently led him to opportunity in the big city, making Denver his new home. 
-            He then began a position at The Wellshire Event Center as the Director of Cuisine. 
-        <br><br>  
-            His years of training, knowledge and priceless experience allowed him to naturally take the lead and bring growth to their culinary menu. 
-            And as Julien says, “Why not,” he additionally opened a pastry kitchen allowing bakery production to be used for corporate, private and wedding events. 
-            All while continuing to manage the staff at The Wellshire and running their state-of-the-art kitchen for all banquets. 
-        <br><br>  
-            In 2016, he realized it was time to branch out on his own and he opened La Belle French Bakery on his birthday. 
-            His goal was to offer outstanding French pastries with the highest of quality to local businesses. 
-            In turn, guaranteeing authentic French recipes to every cafe, restaurant, hotel and business in Colorado. 
-            Julien has also made an effort to bring young talented French pastry chefs to the US to give them the same opportunities he once created for himself. 
-        <br><br>   
-            In the spirit of his, “why not” mantra, Chef Julien became a member of the French Chamber of Commerce in Colorado as the Culinary Director/Board Member in November 2019, as he began teaching Master Pastry Classes at The French Kitchen in Colorado Springs. 
-            Then a year later, in November 2020, he was selected to be the President of the French Chamber of Commerce and continues in that role today. 
-        <br><br>
-            In March 2020, due to the global pandemic, Chef Julien made a remarkable pivot with La Belle and opened his doors to retail customers alongside his wholesale businesses. 
-            This has proved to be extremely successful, and he is currently planning to branch out of state and/ or open a full retail bakery location soon. 
-        <br><br>
-            In 2020 Julien also partnered with a farm in El Salvador producing his own brand of gourmet coffee, working with a local roaster. 
-            La Belle coffee matches the same level of quality he provides with his pastries and is available in store and online. Truly, his endless desire to share his passion will never waiver.
-        <br>
-        </span>
-        </p>
-            <button class="meetchef__btn" onclick="readMore()" id="myBtn">Read more</button>
+<section class="locations">
+    <div class = "loc">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,128L40,144C80,160,160,192,240,197.3C320,203,400,181,480,181.3C560,181,640,203,720,202.7C800,203,880,181,960,181.3C1040,181,1120,203,1200,181.3C1280,160,1360,96,1400,64L1440,32L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"></path></svg>
+   </div> 
+  
+    <div class="container__locations">
+    <div class="container--right">
+        <img class= "container__img" src="./img/loc.png" alt="map displaying both locations">
     </div>
+    <div class="container--left--loc">
+        <h1 class = "hero__title">Locations</h1>
+        <p class="loc__text">Meet us in Littlet on Saturdays or Arvada on Sundays</p>
+        <a href="locations.html"><button class="menu btn--intro">Locations</button></a>
+    </div>
+</div>
 </section>
 
 <footer>
     <div class="footer__container"  id="contact" >  
         <div class="footer__contact">
             <h2 class="footer__title">Contact</h2>
-            <p class="footer__text">info@labellefrenchbakery.com</p>
-            <p class="footer__text">(303) 596-6561</p>
-            <a href="https://www.facebook.com/LaBelleFrenchBakery/" target="_blank"><img src="img/fb.png" alt="facebook logo" class="footer__icon"></a>
-            <a href="https://www.instagram.com/labellefrenchbakery/" target="_blank"><img src="img/insta.png" alt="Instagram logo" class="footer__icon"></a>
-        </div>
-
-        <div class="footer__locations">
-            <h2 class="footer__title">Locations</h2>
-            <p class="footer__text">La Belle French Bakery, LLC </p>
-            <p class="footer__text">12189 Pennsylvania Street.</p>
-            <p class="footer__text">Unit 12195</p>
-            <p class="footer__text"> Thornton, Colorado, 80241</p>
+            <p class="footer__text">crepesdenver@gmail.com</p>
+            <p class="footer__text">(720) 432-9840</p>
+            <a href="https://twitter.com/crepes_denver" target="_blank"><img src="img/Vectortwitter.png" alt="twitter logo" class="footer__icon"></a>
+            <a href="https://www.instagram.com/crepes_denver/" target="_blank"><img src="img/Groupinsta.png" alt="Instagram logo" class="footer__icon--insta"></a>
+            <a href="https://www.tiktok.com/@crepes_denver" target="_blank"><img src="img/Vectortiktok.png" alt="tiktok logo" class="footer__icon"></a>
+       
         </div>
 
         <!-- // Add links to the paragraphs //  -->
         <div class="footer__QuickLinks">
             <h2 class="footer__title">Quick Links</h2>
-            <p class="footer__text"><a href="order.html">ORDER ONLINE</a></p>
-            <p class="footer__text"><a href="account.html">MY ACCOUNT</a></p>
-            <p class="footer__text"><a href="gallery.html">GALLERY</a></p>
+            <p class="footer__text"><a href="menu.html">MENU</a></p>
             <p class="footer__text"><a href="contact.html">CONTACT</a></p>
+            <p class="footer__text"><a href="locations.html">LOCATIONS</a></p>
         </div>
-
     </div>
-        <div class="copyright">© 2022 ALL RIGHTS RESERVED</div>
+        <div class="copyright">Developed by Helene HC Web Designs © 2022 Crêpes de Soissons</div>
     
 </footer>
 
