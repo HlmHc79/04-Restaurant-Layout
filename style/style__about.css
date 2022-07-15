@@ -23,7 +23,7 @@ a {
 }
 
 .hero__nav li a:hover {
-    color:#f157a4;
+    color:#bf2b75;
     text-decoration: none;
 }
 
@@ -108,14 +108,28 @@ img {
     text-align: center;
 }
 
+.menu {
+    background-color: white;
+    border-radius: 10px;
+    border: solid 3px #bf2b75;
+    color: #bf2b75;
+    width:8em;
+    z-index: 10
+}
+
 .menu:hover {
     color:white;
     background-color: #bf2b75;
     z-index: 10;
 }
 
+.book__btn {
+    width:5rem;
+    font-size: 1rem;
+}
+
 .menu--active {
-    border-bottom: 4px solid #f157a4;
+    border-bottom: 4px solid #bf2b75;
 }
 
 .about {
@@ -267,6 +281,17 @@ footer {
         align-items: center;
         text-decoration: none;
         list-style: none;
+    }
+
+    .menu {
+        font-size: 1.3rem;
+        padding:0.7rem;
+    }
+    
+    .book__btn {
+        width:6rem;
+        font-size: 1.3rem;
+        border-radius: 50%;
     }
     
     .navmob {

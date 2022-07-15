@@ -23,7 +23,7 @@ a {
 }
 
 .hero__nav li a:hover {
-    color:#f157a4;
+    color:#bf2b75;
     text-decoration: none;
 }
 
@@ -128,8 +128,13 @@ img {
     z-index: 10;
 }
 
+.book__btn {
+    width:5rem;
+    font-size: 1rem;
+}
+
 .menu--active {
-    border-bottom: 4px solid #f157a4;
+    border-bottom: 4px solid #bf2b75;
 }
 
 .polygon {
@@ -362,8 +367,8 @@ footer {
 .hero__text {
  font-size: 1.6rem;
  text-align: center;
- max-width: 600px;
- line-height: 2rem;
+ max-width: 700px;
+ line-height: 2.2rem;
  margin-bottom: 3rem;
  font-weight: 200;
 }
@@ -371,6 +376,13 @@ footer {
 .menu {
     font-size: 1.3rem;
     padding:0.7rem;
+}
+
+.book__btn {
+    width:6rem;
+    font-size: 1.3rem;
+    border-radius: 50%;
+    border
 }
 
 .intro {
