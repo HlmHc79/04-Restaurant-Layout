@@ -84,7 +84,7 @@ img {
 } */
 
 .navmob {
-    display:inline;
+    display:none;
 }
 
 /* .hero__icon {
@@ -312,7 +312,7 @@ footer {
 @media (min-width: 1100px) {
 
 .hero {
-  height:110vh;
+  height:100vh;
 }
 
 .hero__logo {
@@ -352,9 +352,9 @@ footer {
 
 .hero__title {
     color:white;
-    font-size: 4.5rem;
+    font-size: 4rem;
     font-weight: 900;
-    margin-top: 1rem;
+    margin-top: 0.7rem;
     margin-bottom:1rem;
 }
 
@@ -365,11 +365,11 @@ footer {
 }
 
 .hero__text {
- font-size: 1.6rem;
+ font-size: 1.2rem;
  text-align: center;
  max-width: 700px;
- line-height: 2.2rem;
- margin-bottom: 3rem;
+ line-height: 2rem;
+ margin-bottom: 1.7rem;
  font-weight: 200;
 }
 
@@ -379,14 +379,24 @@ footer {
 }
 
 .book__btn {
-    width:6rem;
-    font-size: 1.3rem;
+    width:7rem;
+    font-size: 1.2rem;
     border-radius: 50%;
-    border
+    border-style: none;
+}
+
+.polygon {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:bottom;
+    position: absolute;
+    bottom: -15px;
 }
 
 .intro {
-    margin-top:20px;
+    margin-top:50px;
+    margin-bottom: 50px;
 }
 
 .intro__text {
