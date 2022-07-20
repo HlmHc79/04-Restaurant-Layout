@@ -23,73 +23,54 @@ a {
 }
 
 .hero__nav li a:hover {
-    color:#bf2b75;
     text-decoration: none;
+    font-weight: 400;
 }
 
 img {
     max-width: 100%;
 }
 
+.hero__logo {
+    min-width:100px;
+    max-width:130px;
+ }
+
+/* MOBILE VIEW*/  /* MOBILE VIEW*/  /* MOBILE VIEW*/  /* MOBILE VIEW*/
+/* MOBILE VIEW*/  /* MOBILE VIEW*/  /* MOBILE VIEW*/  /* MOBILE VIEW*/
+
 .hero {
-    height:110vh;
-    background-image: url('../img/hero_crepes.jpg');
-    background-color: rgba(1, 1, 1, 0.4);
+    height:90vh;
+    background-image: url('../img/crepes.jpg');
+    background-color: rgba(39, 38, 36, 0.3);
     background-blend-mode: multiply;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position:bottom;
+    background-position:center;
     background-attachment: fixed;
     }
 
 .hero__logo {
-    width:15%;
-    max-width: 150px;
+   width:130px;
 }
 
 .hero__nav {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
     z-index: 20;
     width: 100vw;
-    height:25vh;
+    padding: 1rem;
 }
 
 .hero__nav--links {
-    font-size: 1.4rem;
-    max-width: 610px;
-    width:100%;
-    line-height: 2.5rem;
-} 
-  
+    font-size: 1rem;
+}
+
 .hero__list {
     text-decoration: none;
     list-style: none;
 }
-
-/* .hero__list--middle {
-    display: flex; 
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    padding-left: 1em;
-} */
-/* 
-.hero__nav--links--right {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    font-size: 0.85rem;
-} */
-
-.navmob {
-    display:none;
-}
-
-/* .hero__icon {
-    width:2rem;
-} */
 
 .container__hero {
     display: flex;
@@ -113,7 +94,7 @@ img {
     font-weight:200; 
 }
 
-.menu {
+.menubtn {
     background-color: white;
     border-radius: 10px;
     border: solid 3px #bf2b75;
@@ -122,13 +103,14 @@ img {
     z-index: 10
 }
 
-.menu:hover {
+.menubtn:hover {
     color:white;
     background-color: #bf2b75;
     z-index: 10;
 }
 
 .book__btn {
+    display: none;
     width:5rem;
     font-size: 1rem;
 }
@@ -143,7 +125,7 @@ img {
     background-size: cover;
     background-position:bottom;
     position: absolute;
-    bottom: -85px;
+    bottom: 55px;
 }
 
 .hero__title--black{
@@ -342,8 +324,12 @@ footer {
     list-style: none;
 }
 
-.navmob {
-    display:none;
+.book__btn {
+    display: block;
+    width:7rem;
+    font-size: 1.2rem;
+    border-radius: 50%;
+    border: solid 2px #bf2b75;
 }
 
 .container__hero {
@@ -378,20 +364,13 @@ footer {
     padding:0.7rem;
 }
 
-.book__btn {
-    width:7rem;
-    font-size: 1.2rem;
-    border-radius: 50%;
-    border-style: none;
-}
-
 .polygon {
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position:bottom;
     position: absolute;
-    bottom: -15px;
+    bottom: -90px;
 }
 
 .intro {
